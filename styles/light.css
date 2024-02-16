@@ -1,12 +1,41 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --fonts: 'IBM Plex Mono';
+  --text-color: #353430;
+  --text-accent-color: #353430;
+  --accent-color: #ff8dcb;
+  --bottom-focus-color: #353430;
+  --bottom-hover-color: #32312d40;
+  --title-color: #ffc2e6;
+  --background-color: #fff1f7;
+  --background-image: url(../images/cover-image-light.png);
+  --bottom-color: var(--text-color);
+  --decor-color: var(--text-color);
+  --section-title-color: var(--text-color);
+}
+
+.page.theme_light .header__rec {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    /* Дублируем переменные светлой темы */
+    --fonts: "IBM Plex Mono";
+    --text-color: #353430;
+    --text-accent-color: #353430;
+    --accent-color: #ff8dcb;
+    --second-color: #353430;
+    --bottom-focus-color: #353430;
+    --bottom-hover-color: #32312d40;
+    --title-color: #ffc2e6;
+    --background-color: #fff1f7;
+    --background-image: url(../images/cover-image-light.png);
+    --bottom-color: var(--text-color);
+    --decor-color: var(--text-color);
+    --section-title-color: var(--text-color);
+  }
 }
