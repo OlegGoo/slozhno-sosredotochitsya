@@ -37,5 +37,8 @@
     --bottom-color: var(--text-color);
     --decor-color: var(--text-color);
     --section-title-color: var(--text-color);
+    --rec: 0;
   }
+  
 }
+

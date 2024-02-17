@@ -1,7 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  font-family: var(--fonts), sans-serif;
+  font-family: var(--fonts), monospace;
   font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
@@ -95,6 +95,7 @@
   gap: 10px;
   font-weight: 400;
   line-height: 25px;
+  opacity: var(--rec);
 }
 
 .header__rec::after {
@@ -246,7 +247,7 @@
 
 .article__text-link {
   text-decoration: none;
-  text-shadow: 3px 1px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--accent-color);
 }
 
 .article__text-link:hover {
