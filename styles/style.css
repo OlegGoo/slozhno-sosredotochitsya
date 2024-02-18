@@ -209,11 +209,10 @@
 @media (width >= 768px) {
   .section {
     grid-template-columns: clamp(236px, 31.7%, 315px) 1fr;
-    column-gap: 20px;
   }
 }
 
-@media (width >= 768px) {
+@media (width >= 1024px) {
   .section {
     column-gap: 23px;
   }
