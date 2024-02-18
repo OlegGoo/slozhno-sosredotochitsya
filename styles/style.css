@@ -209,6 +209,12 @@
 @media (width >= 768px) {
   .section {
     grid-template-columns: clamp(236px, 31.7%, 315px) 1fr;
+    column-gap: 20px;
+  }
+}
+
+@media (width >= 768px) {
+  .section {
     column-gap: 23px;
   }
 }
@@ -216,6 +222,11 @@
 .section__title {
   font-size: 18px;
   color: var(--section-title-color);
+}
+
+.artical__container {
+  display: grid;
+  gap: 20px;
 }
 
 .section__content {
