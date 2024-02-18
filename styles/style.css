@@ -95,7 +95,7 @@
   gap: 10px;
   font-weight: 400;
   line-height: 25px;
-  opacity: var(--rec);
+  visibility: var(--rec);
 }
 
 .header__rec::after {

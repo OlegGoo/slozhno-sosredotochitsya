@@ -15,5 +15,5 @@
   --bottom-color: var(--accent-color);
   --decor-color: var(--accent-color);
   --section-title-color: var(--accent-color);
-  --rec: 1;
+  --rec: visible;
 }

@@ -5,11 +5,7 @@
 */
 
 .page.theme_dark {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
-  --fonts: 'IBM Plex Mono';
+  --fonts: "IBM Plex Mono";
   --text-color: #f1b2ce;
   --text-accent-color: #000028;
   --accent-color: #ff0070;
@@ -21,7 +17,5 @@
   --bottom-color: var(--accent-color);
   --decor-color: var(--accent-color);
   --section-title-color: var(--accent-color);
-  --rec: 1;
+  --rec: visible;
 }
-
-
